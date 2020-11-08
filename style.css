@@ -109,18 +109,35 @@ p {
     width: 120px;
 }
 
-footer ul li {
-    font-weight: 400;
+.black-color {
+    color: #000000;
+}
+
+.footer-bg {
+    background-color: #282531;
+}
+
+h5 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+footer ul li a, p {
     font-size: 16px;
     line-height: 30px;
     color: #ffffff;
-}
-footer ul:first-child {
-    font-weight: 700;
-    font-size: 18px;
-}
-.footer-bg {
-    background-color: #282531;
-    height: 369px;
+    font-weight: 400;
 }
 
+footer ul li a:hover {
+    color: #21B573;;
+    text-decoration: none;
+}
+
+.footer-p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #CDCDCD;
+}
