@@ -49,6 +49,19 @@ h1 {
     line-height: 70px;
 }
 
+h4 {
+    color: #413960;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+}
+
 span {
     color: #21B573;
 }
@@ -59,3 +72,55 @@ p {
     line-height: 36px;
     font-weight: 400;
 }
+.cat {
+    height: 270px;
+    background: #F8FFFB;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cat:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+}
+.cat img {
+    width: 70px;
+    height: auto;
+}
+
+.cat p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+
+.courses {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    padding: 15px;
+}
+
+.course-footer img {
+    width: 18px;
+}
+
+.testimonial img {
+    width: 120px;
+}
+
+footer ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+}
+footer ul:first-child {
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer-bg {
+    background-color: #282531;
+    height: 369px;
+}
+
